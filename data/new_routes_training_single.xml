@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+   <route id="0" town="Town05">
+      <weathers>
+         <weather route_percentage="0" cloudiness="30" precipitation="0" sun_altitude_angle="70" fog_density="0"/>
+         <weather route_percentage="100" cloudiness="70" precipitation="0" sun_altitude_angle="20" fog_density="20"/>
+      </weathers>
+      <waypoints>
+         <position x="95.9" y="-52.23" z="0.0" />
+         <position x="96.52" y="-43.22" z="0.0" />
+         <position x="96.49" y="-33.22" z="0.0" />
+         <position x="96.46" y="-23.22" z="0.0" />
+         <position x="96.43" y="-13.22" z="0.0" />
+         <position x="96.41" y="-7.16" z="0.0" />
+         <position x="96.36" y="-50.79" z="0.0" />
+      </waypoints>
+      <scenarios>
+         <scenario name="PedestriansCrossingSidewalk" type="PedestriansCrossingSidewalk">
+            <trigger_point x="96.43" y="-23.21" z="0.0" yaw="90"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>
+
+
+
+
