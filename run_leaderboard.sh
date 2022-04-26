@@ -5,4 +5,4 @@ export TEAM_AGENT=${LEADERBOARD_ROOT}/leaderboard/autoagents/human_agent.py
 export CHECKPOINT_ENDPOINT=${LEADERBOARD_ROOT}/results.json
 export CHALLENGE_TRACK_CODENAME=SENSORS
 
-/opt/code/leaderboard/scripts/run_evaluation.sh
+./scripts/run_evaluation.sh
